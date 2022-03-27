@@ -71,3 +71,7 @@ out2<-out2[out2$gene!="" & out2$id!="",]
 out2<-out2[complete.cases(out2),]
 write.csv(out2,file="ensg2id_mmusculus.csv",row.names=F,quote=F)
 ```
+
+#220327
+##1.import TCGA_subtypes.csv
+created by misc/LINP1/TCGAlinks_download.ipynb
