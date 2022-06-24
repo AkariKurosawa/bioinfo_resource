@@ -75,3 +75,8 @@ write.csv(out2,file="ensg2id_mmusculus.csv",row.names=F,quote=F)
 #220327
 ##1.import TCGA_subtypes.csv
 created by misc/LINP1/TCGAlinks_download.ipynb
+
+#220624
+##1.create gene2gene table
+see projects/liver_cancer_220531/id_transfer.ipynb
+
